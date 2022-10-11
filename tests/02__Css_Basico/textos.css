@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    padding: 32px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 16px;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.lg {
+    font-size: 24px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.decoration-underline {
+    text-decoration: underline;
+}
+
+.decoration-overline {
+    text-decoration: overline;
+}
+
+.decoration-line-through {
+    text-decoration: line-through;
+}
+
+.letter--1 {
+    letter-spacing: -1px;
+}
+
+.letter-1 {
+    letter-spacing: 1px;
+}
+
+.word--1 {
+    word-spacing: -2px;
+}
+
+.word-1 {
+    word-spacing: 4px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.line-height-sm {
+    line-height: 1px;
+    background-color: lightblue;
+}
+
+.line-height-md {
+    line-height: 16px;
+    background-color: lightgrey;
+}
+
+.line-height-lg {
+    line-height: 32px;
+    background-color: lightskyblue;
+}
+
+.align-top {
+    height: 100px;
+    /* line-height: 100px; */
+    background-color: lightcoral;
+    vertical-align: top;
+}
+
+.align-middle {
+    height: 100px;
+    /* line-height: 100px; */
+    background-color: lightsteelblue;
+    vertical-align: middle;
+}
+
+.align-bottom {
+    height: 100px;
+    background-color: lightgreen;
+    vertical-align: bottom;
+}
+
+.align {
+    font-size: 32px;
+}
+
+.align span {
+    font-size: 16px;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+ul {
+    padding: 32px;
+}
+
+.l-none {
+    list-style: none;
+}
+
+.l-circle {
+    list-style: circle;
+}
+
+.l-decimal {
+    list-style: decimal;
+}
+
+.l-square {
+    list-style: square;
+}
+
+.color_red {
+    color: red;
+}
+.color_orange {
+    color: orange;
+}
+.color_blue {
+    color: blue;
+}
+.color_green {
+    color: green;
+}
+.color_gray {
+    color: gray;
+}

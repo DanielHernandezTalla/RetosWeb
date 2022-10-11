@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 0 32px;
+    background-color: rgb(72, 86, 100);
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 6px 16px;
+}
+
+a:hover {
+    background-color: rgb(18, 48, 78);
+}

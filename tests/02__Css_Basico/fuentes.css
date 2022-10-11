@@ -1,0 +1,35 @@
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.times-new-roman {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.courier-new {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.lg {
+    font-size: 24px;
+}

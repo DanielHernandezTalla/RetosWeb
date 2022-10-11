@@ -1,0 +1,94 @@
+.mark h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.mark aside {
+    background-color: var(--white);
+    padding: 16px;
+    border-radius: 16px;
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+.mark aside strong {
+    font-weight: 300;
+}
+
+.mark h3 {
+    padding: 16px;
+}
+
+.mark ol {
+    padding-left: 32px;
+}
+
+.mark ol li {
+    list-style: disc;
+    line-height: 32px;
+}
+
+.mark h2 {
+    padding: 64px 32px 16px;
+}
+
+.mark p {
+    padding: 0 16px;
+}
+
+.mark pre code {
+    padding: 16px;
+    border-radius: 16px;
+    line-height: 24px;
+}
+
+@media (min-width: 768px) {
+    .mark-flex-2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 32px;
+    }
+
+    .mark-flex-2 div {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .mark-flex-2 aside {
+        grid-column-start: 2;
+        height: min-content;
+    }
+}
+
+.challenges {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.challenge {
+    height: 128px;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+    border-bottom: 4px solid var(--light);
+    background-color: var(--white);
+}
+
+.challenge img {
+    width: 128px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.challenge-content {
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 992px) {
+    .challenge {
+        width: calc(50% - 16px);
+    }
+}

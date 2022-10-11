@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sergey": "^0.0.13"
+  },
+  "name": "acti",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "sergey --watch",
+    "start": "sergey"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
