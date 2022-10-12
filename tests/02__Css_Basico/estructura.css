@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+header {
+    height: 30vh;
+    background-color: orange;
+}
+
+.content {
+    height: 60vh;
+    /* background-color: orangered; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    height: 100%;
+    display: inline-block;
+    width: 70%;
+    background-color: lightblue;
+}
+
+aside {
+    height: 100%;
+    display: inline-block;
+    width: 29%;
+    background-color: lightpink;
+}
+
+footer {
+    height: 10vh;
+    background-color: lightseagreen;
+}

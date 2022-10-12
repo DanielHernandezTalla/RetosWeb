@@ -1,0 +1,94 @@
+:root {
+    --black: #000;
+    --dark: #292d38;
+    --dark-gray: #333;
+    --light: #33b1ff;
+    --gray: #666;
+    --light-gray: #eee;
+    --background: #ecf0f3;
+    --white: #fff;
+    --danger: #d30a0a;
+    --family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--family);
+    background-color: var(--background);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* ========================================================= */
+/* TODO: Head */
+/* ========================================================= */
+.head {
+    min-height: 300px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    padding-top: 96px;
+    display: grid;
+}
+
+h1 {
+    padding-bottom: 32px;
+}
+
+.head div {
+    text-align: center;
+}
+
+.head__img {
+    height: 256px;
+}
+
+@media (min-width: 768px) {
+    .head {
+        grid-template-columns: 3fr 1fr;
+        padding-top: 128px;
+    }
+
+    .head div {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+/* ========================================================= */
+/* TODO: Home */
+/* ========================================================= */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========================================================= */
+/* TODO: Secciones */
+/* ========================================================= */
+.section-container {
+    padding: 64px 16px;
+}
+
+.section__h2 {
+    padding: 0px 0 32px 0;
+}
+
+.section-flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

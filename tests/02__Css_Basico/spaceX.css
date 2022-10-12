@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    padding-top: 64px;
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+}
+
+.card {
+    width: 300px;
+    padding: 32px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: black;
+    vertical-align: middle;
+    color: #bbb;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+h1 ~ img {
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    display: block;
+    height: 128px;
+    width: 128px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.name {
+    display: inline-block;
+    padding: 16px;
+    font-size: 18px;
+    color: #aaa;
+}
+
+.description {
+    font-weight: bold;
+    color: rgb(37, 101, 173);
+}
+
+.text {
+    padding-top: 16px;
+    font-size: 14px;
+    color: #999;
+    text-align: left;
+}

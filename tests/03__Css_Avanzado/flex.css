@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+section {
+    background-color: rgb(121, 88, 155);
+    border-radius: 10px;
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+}
+
+div {
+    width: 10px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: orange;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-arround {
+    justify-content: space-around;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}

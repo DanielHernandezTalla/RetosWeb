@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h2 {
+    padding: 16px;
+}
+
+hr {
+    margin-bottom: 32px;
+}
+
+.wdht {
+    height: 100px;
+    margin-bottom: 16px;
+    background-color: lightblue;
+}
+
+.width-100 {
+    width: 100px;
+}

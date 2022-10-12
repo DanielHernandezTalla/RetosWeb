@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+figure {
+    width: 100px;
+    display: inline-block;
+}
+
+.cajas {
+    width: 100px;
+    height: 100px;
+    border: 1px solid saddlebrown;
+}
+
+.caja-1 {
+    background-color: lightblue;
+}
+
+.caja-2 {
+    background-color: lightgreen;
+}
+
+.caja-3 {
+    background: linear-gradient(red, blue);
+}
+
+.caja-4 {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.caja-5 {
+    background: linear-gradient(45deg, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.caja-6 {
+    background: linear-gradient(to top left, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.caja-6 {
+    background: linear-gradient(
+        red 20%,
+        orange 40%,
+        yellow 60%,
+        green 80%,
+        blue 100%
+    );
+}
+
+.caja-7 {
+    background: linear-gradient(
+        red 20%,
+        orange 20% 40%,
+        yellow 20% 60%,
+        green 20% 80%,
+        blue 20% 100%
+    );
+}
+
+.caja-8 {
+    background: radial-gradient(red, blue);
+}
+
+.caja-9 {
+    background: radial-gradient(circle at 100%, #fff 20%, #333, #333 80%);
+}
+
+.caja-10 {
+    background: radial-gradient(ellipse at 100%, #fff 20%, #333, #333 80%);
+}
+
+.caja-11 {
+    background-image: url(assets/imagen.avif);
+}
+
+.caja-12 {
+    background-image: url(assets/imagen.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.caja-13 {
+    background-image: url(assets/imagen.avif);
+    background-position: center;
+    background-size: cover;
+}
