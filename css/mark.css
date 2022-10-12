@@ -32,14 +32,22 @@
     padding: 64px 32px 16px;
 }
 
-.mark p {
-    padding: 0 16px;
+.mark p,
+.mark aside li {
+    padding: 0px 16px;
+    font-weight: 300;
 }
 
 .mark pre code {
     padding: 16px;
     border-radius: 16px;
     line-height: 24px;
+}
+
+.mark code {
+    padding: 4px;
+    border-radius: 3px;
+    background-color: var(--background);
 }
 
 @media (min-width: 768px) {
@@ -65,30 +73,54 @@
     flex-wrap: wrap;
 }
 
-.challenge {
-    height: 128px;
+.challenges a {
     width: 100%;
+    padding: 16px;
     border-radius: 16px;
-    display: flex;
-    gap: 16px;
     overflow: hidden;
     border-bottom: 4px solid var(--light);
     background-color: var(--white);
+    color: var(--black);
+    font-weight: 300;
+    font-size: 14px;
+    transition: all 0.3s ease;
 }
 
-.challenge img {
-    width: 128px;
+.challenges a:hover {
+    box-shadow: 0px 0px 10px var(--gray);
+    transform: scale(1.02);
+}
+
+.challenges a p {
+    padding: 0;
+}
+
+.challenges a img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.challenge-content {
-    padding-top: 16px;
-    padding-right: 16px;
+.challenges a h4 {
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    .challenges a {
+        width: calc(50% - 8px);
+    }
+}
+
+@media (min-width: 768px) {
+    .challenges a {
+        width: calc(50% - 8px);
+    }
 }
 
 @media (min-width: 992px) {
-    .challenge {
-        width: calc(50% - 16px);
+    .challenges a {
+        width: calc(25% - 12px);
     }
 }

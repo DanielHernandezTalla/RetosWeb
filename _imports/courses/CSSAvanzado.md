@@ -1,5 +1,8 @@
 # CSS Avanzado
 
+<!-- -- TODO: firts section -->
+<section class="mark-flex-2">
+
 <aside>
 💡 **Temas:**
 
@@ -21,6 +24,8 @@
 
 </aside>
 
+<div>
+
 ### Instrucciones
 
 1. La pagina tiene que tener la estructura básica de HTML.
@@ -32,185 +37,76 @@
 7. Se recomienda hacer agregados a los ejercicios creados o hacerlos de diferentes maneras cada uno.
 8. Ver el vídeo recomendado para poder realizar los ejercicios y revisar documentaciones en Internet. 
 9. Practicar GRID y FLEX en las paginas que estan agregadas en los recursos. 
+</div>
+</section>
 
-## Flex
 
-**Requisitos** 
+<!-- -- TODO: Challenges -->
+## Retos
+<div class="challenges">
 
-1. Usar las distintas propiedades de flex para realizar los siguientes ejercicios: 
+<!-- Challenge Flex Justify -->
+<a href="./tests/03__Css_Avanzado/flex.html" target="_blank">
 
-![Imagen 1 flex](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/flex1_acgctj.png)
+![imagen ejercicio flex](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/flex1_acgctj.png)
+#### Flex Justify
+- Usar las distintas propiedades de flex y justify para realizar los siguientes ejercicios.
 
-Imagen 1 flex
+</a>
 
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/flex1_acgctj.png)
-> 
+<!-- Challenge Flex Align -->
+<a href="./tests/03__Css_Avanzado/flex_2.html" target="_blank">
 
-![Imagen 2 flex](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/flex2_jbhf0d.png)
+![imagen ejercicio flex](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/flex2_jbhf0d.png)
+#### Flex Align
+- Usar las distintas propiedades de flex y aling para realizar los siguientes ejercicios.
 
-Imagen 2 flex
+</a>
 
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/flex2_jbhf0d.png)
-> 
+<!-- Challenge Maquetación con flex -->
+<a href="./tests/03__Css_Avanzado/flex_3.html" target="_blank">
 
-![Imagen 3 flex](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/flex3_i4kyim.png)
+![imagen ejercicio flex](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/flex3_i4kyim.png)
+#### Maquetación con flex
+- Realizar la siguiente maquetación con <code>display: flex;</code>.
 
-Imagen 3 flex
+</a>
 
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/flex3_i4kyim.png)
-> 
+<!-- Challenge Flex Align -->
+<a href="./tests/03__Css_Avanzado/layout.html" target="_blank">
 
-## Grid
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid1_bnovye.png)
+#### Maquetación de layout GRID
+- Realizar la siguiente maquetación con <code>display: grid;</code>.
 
-**Requisitos** 
+</a>
 
-1. Usar las distintas propiedades de grid para realizar los siguientes ejercicios:
+<!-- Challenge Flex Align -->
+<a href="./tests/03__Css_Avanzado/layout_2.html" target="_blank">
 
-![Imagen 1 grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid1_bnovye.png)
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid2_nvz4pv.png)
+#### Maquetación de layout con GRID
+- Realizar la siguiente maquetación con <code>display: grid;</code>.
 
-Imagen 1 grid
+</a>
 
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid1_bnovye.png)
-> 
+<!-- Challenge Flex Align -->
+<a href="./tests/03__Css_Avanzado/layout_3.html" target="_blank">
 
-![Imagen 2 grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid2_nvz4pv.png)
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.1_o6qq1h.png)
+#### Maquetación responsive con GRID
+- Realizar la siguiente maquetación con <code>display: grid;</code>, ademas agregar responsibidad a la pagina. _se recomienda empezar haciendo los diseños de mobile, tablet a desktop_.
 
-Imagen 2 grid
+</a>
 
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid2_nvz4pv.png)
-> 
-
-### Pagina web con GRID y Media Query
-
-1. Usar grid para acomodar las cajas y usar media query para reordenar las cajas, dependiendo del tamaño de la pantalla.
-
-![Imagen 3 grid - desktop (1024px)](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.1_o6qq1h.png)
-
-Imagen 3 grid - desktop (1024px)
-
-![Imagen grid - tablet (768px)](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.2_mlvmxb.png)
-
-Imagen grid - tablet (768px)
-
-![Imagen grid - mobile (662px)](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid3.3.1_iq81pd.png)
-
-Imagen grid - mobile (662px)
-
-![Imagen grid - mobile 2 (662px)](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid3.3_uj66kf.png)
-
-Imagen grid - mobile 2 (662px)
-
-> Link a las imagenes
-[https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.1_o6qq1h.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.1_o6qq1h.png)
-[https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.2_mlvmxb.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.2_mlvmxb.png)
-[https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid3.3.1_iq81pd.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid3.3.1_iq81pd.png)
-[https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid3.3_uj66kf.png](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid3.3_uj66kf.png)
-> 
-
-## Pagina 1
-
-**Requisitos** 
-
-1. Que el menú se quede pegado arriba de la pagina al dar scroll.
-2. Agregar botón abajo a la derecha, pero encina del contenido, el botón hace que la página regrese al header, no se pide el funcionamiento por que se ocupa JS.
-
-![Imagen 1](https://res.cloudinary.com/danielhdz/image/upload/v1664862872/Acti/stiky_1_axmac7.png)
-
-Imagen 1
-
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664862872/Acti/stiky_1_axmac7.png)
-> 
-
-![Imagen 2](https://res.cloudinary.com/danielhdz/image/upload/v1664862870/Acti/stiky_2_dah4bg.png)
-
-Imagen 2
-
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664862870/Acti/stiky_2_dah4bg.png)
-> 
-
-## Pagina EDteam
-
-**Requisitos** 
-
-1. Usar posicionamientos para dejar pegado el header arriba y el nav a un lado.
-2. Ademas agregar un menu que este por arriba del contenido de la pagina para ver datos de tu cuenta.
-3. El contenido del main se puede posicionar a su gusto. 
-
-![Imagen 1 EDteam](https://res.cloudinary.com/danielhdz/image/upload/v1664886883/Acti/ed.team_tokt5k.png)
-
-Imagen 1 EDteam
-
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664886883/Acti/ed.team_tokt5k.png)
-> 
-
-![Imagen 2 EDteam](https://res.cloudinary.com/danielhdz/image/upload/v1664886883/Acti/ed.team2_xtt7ff.png)
-
-Imagen 2 EDteam
-
-> Link a la imagen [https://res.cloudinary.com/danielhdz/image/upload/v1664884870/Acti/ed.team_oqoldz.png](https://res.cloudinary.com/danielhdz/image/upload/v1664886883/Acti/ed.team2_xtt7ff.png)
-> 
+</div>
 
 <aside>
-💡 **Recursos 
-- Vídeo de guía:** [https://www.youtube.com/watch?v=OWKXEJN67FE](https://www.youtube.com/watch?v=OWKXEJN67FE)
-**- Pagina de guía:** [https://www.w3schools.com/css/](https://www.w3schools.com/css/)
-**- Practicar flex:** [https://flexboxfroggy.com/#es](https://flexboxfroggy.com/#es)
-**- Practicar grid:** [https://cssgridgarden.com/#es](https://cssgridgarden.com/#es)
+💡 **Recursos**
+
+- Vídeo de guía: [https://www.youtube.com/watch?v=OWKXEJN67FE](https://www.youtube.com/watch?v=OWKXEJN67FE)
+- Pagina de guía: [https://www.w3schools.com/css/](https://www.w3schools.com/css/)
+- Practicar flex: [https://flexboxfroggy.com/#es](https://flexboxfroggy.com/#es)
+- Pagina de guía: [https://cssgridgarden.com/#es](https://cssgridgarden.com/#es)
 
 </aside>
-
-### Jerarquía de carpetas
-
-```
-CSS2/
-├── flex_1/
-│   ├── index.html
-│   ├── styles.css
-├── flex_2/
-│   ├── index.html
-│   ├── styles.css
-├── flex_3/
-│   ├── index.html
-│   ├── styles.css
-├── grid_1/
-│   ├── index.html
-│   ├── styles.css
-├── grid_2/
-│   ├── index.html
-│   ├── styles.css
-├── grid_3/
-│   ├── index.html
-│   ├── styles.css
-├── pagina_1/
-│   ├── index.html
-│   ├── styles.css
-│   ├── assets
-│   │   ├── background.jpg
-│   │   ├── icono.ico
-├── ed.team/
-│   ├── index.html
-│   ├── styles.css
-│   ├── assets
-│   │   ├── bars.svg
-│   │   ├── box.svg
-│   │   ├── card1.jpg
-│   │   ├── card2.jpg
-│   │   ├── document.svg
-│   │   ├── flat.png
-│   │   ├── graphis.svg
-│   │   ├── graphis_line.svg
-│   │   ├── heart.svg
-│   │   ├── home.svg
-│   │   ├── logo.svg
-│   │   ├── logotipo.svg
-│   │   ├── logout.svg
-│   │   ├── notification.svg
-│   │   ├── question.svg
-│   │   ├── star.svg
-│   │   ├── stars.svg
-│   │   ├── sun.svg
-│   │   ├── tools.svg
-│   │   ├── trophy.svg
-│   │   ├── user.svg
-│   │   ├── users.svg
-```
