@@ -85,7 +85,7 @@
 <a href="./tests/03__Css_Avanzado/layout_2.html" target="_blank">
 
 ![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897588/Acti/grid2_nvz4pv.png)
-#### Maquetación de layout con GRID
+#### Maquetación de layout GRID
 - Realizar la siguiente maquetación con <code>display: grid;</code>.
 
 </a>
@@ -96,6 +96,42 @@
 ![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1664897587/Acti/grid3.1_o6qq1h.png)
 #### Maquetación responsive con GRID
 - Realizar la siguiente maquetación con <code>display: grid;</code>, ademas agregar responsibidad a la pagina. _se recomienda empezar haciendo los diseños de mobile, tablet a desktop_.
+
+</a>
+
+<!-- Challenge ubicacion -->
+<a href="./tests/03__Css_Avanzado/grid_1.html" target="_blank">
+
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1665922241/Acti/ubicacion_vdzy1q.png)
+#### Ubicación de contenido con GRID
+- Hacer que el contenido este centrado horizontal y verticalmente, y posicionando las cajas donde deben de ir.
+
+</a>
+
+<!-- Challenge maquetacion web -->
+<a href="./tests/03__Css_Avanzado/web_1.html" target="_blank">
+
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1665921568/Acti/web_1_yo3iv7.png)
+#### Maquetación de Web 
+- Realizar la siguiente página web y hacer que el contenido se quede estatico en el top de la página, ademas agregar un boton abajo a la derecha que simule el regresar al top de la pagina, no se pide la funcionalidad del boton.
+
+</a>
+
+<!-- Challenge maquetacion web -->
+<a href="./tests/03__Css_Avanzado/web_2.html" target="_blank">
+
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1665921799/Acti/web_2_g6vt1u.png)
+#### Maquetación web 2
+- Hacer que cada articulo intercambie el contenido y la imagen. Agregar una tabla responsiva al final de la paguina, con el uso de grid y flex. 
+
+</a>
+
+<!-- Challenge Maquetacion con grid y flex -->
+<a href="./tests/03__Css_Avanzado/ed.team.html" target="_blank">
+
+![imagen layoud grid](https://res.cloudinary.com/danielhdz/image/upload/v1664886883/Acti/ed.team_tokt5k.png)
+#### Maquetación con GRID y Flex
+- Hacer que el header este estatico al top, el nav estatico en la izquierda y el menu para el perfin, este sobre el header y por ende encima del contenido de la pagina.
 
 </a>
 
