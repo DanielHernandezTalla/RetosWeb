@@ -1,0 +1,16 @@
+.productos {
+    max-width: 930px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.producto {
+    width: 48%;
+}
+
+.planes {
+    justify-content: center;
+}
