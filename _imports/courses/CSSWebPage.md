@@ -107,3 +107,10 @@
 - Trucos CSS EdTeam (Buscar en el canal de youtube, EdTeam trucos CSS): [https://www.youtube.com/c/EDteam](https://www.youtube.com/c/EDteam)
 
 </aside>
+
+<aside>
+⬇️ **Descargar recursos**
+
+<a href="./resources/05__Js_Basico.rar" download>Descargar aquí</a>
+
+</aside>

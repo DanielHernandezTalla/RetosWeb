@@ -22,8 +22,17 @@ header ul {
 
 .logo {
     display: flex;
+    padding-left: 16px;
     align-items: center;
     gap: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.logo span::first-letter{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .logo-img {
@@ -31,12 +40,12 @@ header ul {
 }
 
 header a {
-    padding: 8px;
     color: var(--white);
+    transition: all .3s ease;
 }
 
-header a:hover {
-    background-color: var(--gray);
+.header__link:hover {
+    color: var(--light);
 }
 
 .perfil {

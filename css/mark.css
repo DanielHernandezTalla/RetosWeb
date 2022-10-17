@@ -50,6 +50,14 @@
     background-color: var(--background);
 }
 
+.mark-code ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: monospace;
+    line-height: 24px;
+}
+
 @media (min-width: 768px) {
     .mark-flex-2 {
         display: grid;
